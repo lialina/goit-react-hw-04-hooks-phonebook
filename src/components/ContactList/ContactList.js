@@ -18,7 +18,7 @@ function ContactList({ contacts, onDeleteContact }) {
 }
 
 ContactList.propTypes = {
-  contacts: PropTypes.array.isRequired,
+  contacts: PropTypes.array,
   onDeleteContact: PropTypes.func.isRequired,
 };
 
