@@ -38,7 +38,7 @@ function App() {
       return;
     }
 
-    setContacts([...contacts, contact]);
+    setContacts([contact, ...contacts]);
   };
 
   const deleteContact = (contactId) => {
